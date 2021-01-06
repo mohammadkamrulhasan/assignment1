@@ -5,14 +5,16 @@ body{
 }
 
 h1{
-    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
         
 }
 .experiance h2{
     text-align: center;
 }
 h2{
-    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
 }
 p{
     color: dimgray;
@@ -33,9 +35,9 @@ p{
 .half-width a{
     margin-top: 10px;
 }
-.top-banner{
+/*.top-banner{
     background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 .new{
     margin-top: 150px;
@@ -53,13 +55,13 @@ section{
     color: white;
     font-weight: 700;
 }
-.Dream-area{
-    background-image: url("images/dream-bg.png");
+/*.Dream-area{
+   /* background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-
-}
+}*/
 .wrapper{
+    
     width: 960px;
     margin: 0 auto;
 }
@@ -81,8 +83,16 @@ section{
     margin-right: 0px;
 }
 .container h3{
+    font-family: 'Anton', sans-serif;
     font-weight: 700;
+}
+.inquiry{
+    width: 906px;
+    height: 225px;
 }
 .conclusion{
     background-image: url("images/inquiry.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
