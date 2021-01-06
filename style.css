@@ -93,13 +93,20 @@ section{
     border-radius: 20px;
     height: 20%;
     margin:0 auto;
+     
     
 }
 .work{
     display:inline-block;
+    color: white;
+   
 }
-#chat{
-    text-align:right;
+.chat{
+    float:right;
+    margin-top: 18px;
+}
+.inquiry{
+    overflow: hidden;
 }
 footer p{
     text-align: center;
