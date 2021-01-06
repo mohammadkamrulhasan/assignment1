@@ -35,10 +35,6 @@ p{
 .half-width a{
     margin-top: 10px;
 }
-/*.top-banner{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;*/
-}
 .new{
     margin-top: 150px;
 }
@@ -55,11 +51,7 @@ section{
     color: white;
     font-weight: 700;
 }
-/*.Dream-area{
-   /* background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-}*/
+
 .wrapper{
     
     width: 960px;
@@ -87,12 +79,31 @@ section{
     font-weight: 700;
 }
 .inquiry{
-    width: 906px;
-    height: 225px;
+    widows: 50%;
+    height: 50%;
+    overflow: hidden;
 }
 .conclusion{
-    background-image: url("images/inquiry.png");
+    background-image:url("images/inquiry.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
+    background-size: cover;
+    padding: 4%;
+    width: 50%;
+    border-radius: 20px;
+    height: 20%;
+    margin:0 auto;
     
+}
+.work{
+    display:inline-block;
+}
+#chat{
+    text-align:right;
+}
+footer p{
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+
 }
